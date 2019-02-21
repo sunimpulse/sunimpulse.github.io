@@ -43,7 +43,6 @@ div.tab button.active {
 .grad1 {
     height: 100%;
     width:70%;
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     opacity:0.95;
 }
 
