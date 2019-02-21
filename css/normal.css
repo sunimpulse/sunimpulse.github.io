@@ -5,7 +5,6 @@ div.tab {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 20%;
-    height: 200px;
 }
 
 /* Style the buttons inside the tab */
@@ -44,7 +43,7 @@ div.tab button.active {
 }
 .grad1 {
     height: 100%;
-    width:100%;
+    width:70%;
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     opacity:0.95;
 }
