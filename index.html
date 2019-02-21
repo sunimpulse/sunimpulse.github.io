@@ -2,16 +2,35 @@
 
 <head><title>超链接到站点外、超链接到浏览器不能打开的文件</title></head>
 
-<body>
+<body style="color:black;font-size:12px;font-weight:bold;" >
+<h4>html语法</h4>
+  
+<p><a href="https://www.cnblogs.com/ince/p/9674427.html">html实例</a></p>
+<p><a href="https://c.runoob.com/front-end/61l">在线工具</a></p>
+<form>
+  <input type="text" name="search" placeholder="搜索..">
+</form>
+  <script>
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
-<p><a href="http://www.163.com">网易</a></p>
-
-<p><a href="http://www.hiwon.net/">海王科技</a></p>
-
-<p><a href="http://www.hiwon.net/domain.asp">域名知识</a></p>
-
-<p><a href="html001.rar">html参考资料</a></p>
-
+input[type=text]:focus {
+    width: 100%;
+}
+</script>
+  
 </body>
 
 </html>
