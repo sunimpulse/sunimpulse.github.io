@@ -46,12 +46,12 @@ div.tab button.active {
     opacity:0.95;
 }
 
-.myProgress {
+#myProgress {
   width: 100%;
   background-color: #ddd;
 }
 
-.myBar {
+#myBar {
   width: 10%;
   height: 30px;
   background-color: #4CAF50;
