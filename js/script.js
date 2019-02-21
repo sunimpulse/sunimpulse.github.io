@@ -14,3 +14,19 @@ function openCity(evt, cityName) {
 
 // 触发 id="defaultOpen" click 事件
 document.getElementById("defaultOpen").click();
+document.getElementById("myProgress").click();
+
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 10;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
