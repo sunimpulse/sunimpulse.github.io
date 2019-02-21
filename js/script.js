@@ -1,4 +1,7 @@
 function openCity(evt, cityName) {
+    if(cityName == "html"){
+        move();
+    }
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -14,7 +17,6 @@ function openCity(evt, cityName) {
 
 // 触发 id="defaultOpen" click 事件
 document.getElementById("defaultOpen").click();
-document.getElementById("myProgress").click();
 
 function move() {
   var elem = document.getElementById("myBar");   
